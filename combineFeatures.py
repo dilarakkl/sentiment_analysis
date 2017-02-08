@@ -7,6 +7,8 @@ global negFile
 global lexFile
 global outputFile
 
+#this file gets the vector files created by seperate programs, combines them.
+#Matlab program svm.m gets these feature vector files and classify test tweets.
 def combine():
 	ngramF = open(ngramFile, encoding="utf-8")
 	posF = open(posFile, encoding="utf-8")
