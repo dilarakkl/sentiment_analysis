@@ -5,6 +5,8 @@ from collections import Counter
 tweets = []
 emoticons = []
 
+#This file takes emoticon scores and sums these scores for every tweet.
+#writes the score of it as a feature.
 def getEmoticons():
 	global emoticons
 	emoticons = []
